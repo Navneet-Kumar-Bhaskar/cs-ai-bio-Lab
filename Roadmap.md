@@ -237,20 +237,6 @@ A typical project structure:
 └── requirements.txt
 ```
 
-Each project README should explain:
-
-1. **Problem**
-2. **Goal**
-3. **How it works**
-4. **Concepts learned**
-5. **Technologies used**
-6. **Implementation**
-7. **Testing**
-8. **Results**
-9. **Demo**
-10. **Limitations**
-11. **Future improvements**
-
 ---
 
 # 🎥 Projects & Content
@@ -263,7 +249,6 @@ When available, project pages will include:
 * 💻 Source Code
 * 📸 Demo
 * 📊 Results
-* 📝 Technical Documentation
 
 The goal is to make every project **verifiable and reproducible where practical**.
 
@@ -274,10 +259,9 @@ The goal is to make every project **verifiable and reproducible where practical*
 **Projects:** `0 / 50`
 
 ```text
-Computer Science       ░░░░░░░░░░  0%
-Artificial Intelligence ░░░░░░░░░░  0%
-Biology                 ░░░░░░░░░░  0%
-Robotics                ░░░░░░░░░░  0%
+Computer Science       0
+Artificial Intelligence 0
+Biology                 0
 ```
 
 > This section will be updated as projects are completed.
