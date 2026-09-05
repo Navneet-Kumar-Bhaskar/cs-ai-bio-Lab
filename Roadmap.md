@@ -1,675 +1,331 @@
-🏆 Your Top 50 Project Roadmap
+# 🧬 CS × AI × Biology Lab
 
-The order matters. Each project should teach you something needed by the next one.
+> **50 projects exploring the intersection of Computer Science, Artificial Intelligence, and Biology.**
 
-🟢 Phase 1 — CS + AI Foundations
-1. 🧬 DNA Sequence Analyzer
+This repository documents my journey of **learning by building**.
 
-Learn: Python, strings, algorithms, basic biology
-Gives you: First CS + Biology project
+Each project is designed to build skills needed for the next one — starting with fundamental programming and biological computing, then progressing toward AI systems, autonomous agents, robotics, computational biology, and large-scale AI research systems.
 
-2. 🔄 DNA → RNA → Protein Simulator
+**Learn → Build → Test → Document → Improve**
 
-Learn: algorithms, biological processes, data representation
+---
 
-3. 📊 Biological Data Cleaner
+## 🎯 Mission
 
-Learn: Pandas, CSV/JSON, data processing, validation
+The goal of this lab is to understand how:
 
-4. 🧬 DNA Sequence Search Engine
+* 💻 Computer Science
+* 🤖 Artificial Intelligence
+* 🧬 Biology
+* 🦾 Robotics
+* 🔬 Scientific Computing
 
-Learn: searching, string algorithms, indexing, optimization
+can be combined to build useful systems.
 
-5. 🧬 DNA Sequence Alignment Tool
+The projects are intentionally arranged in a progression rather than as 50 unrelated projects.
 
-Learn: dynamic programming, algorithms, computational biology
+---
 
-🟢 Phase 2 — Your First AI Systems
-6. 🗣️ JARVIS v1 — Voice AI Assistant
+# 🗺️ Project Roadmap
 
-Build:
+## 🟢 Phase 1 — CS + AI Foundations
 
-Voice
- ↓
-Speech-to-Text
- ↓
-LLM
- ↓
-Response
- ↓
-Text-to-Speech
+| #  | Project                                                 | Main Concepts                                   | Status |
+| -- | ------------------------------------------------------- | ----------------------------------------------- | ------ |
+| 01 | 🧬 [DNA Sequence Analyzer](./01-dna-sequence-analyzer/) | Python, Strings, Algorithms, Biology            | ⬜      |
+| 02 | 🔄 DNA → RNA → Protein Simulator                        | Algorithms, Data Representation, Biology        | ⬜      |
+| 03 | 📊 Biological Data Cleaner                              | Pandas, CSV, JSON, Validation                   | ⬜      |
+| 04 | 🔎 DNA Sequence Search Engine                           | Searching, String Algorithms, Indexing          | ⬜      |
+| 05 | 🧬 DNA Sequence Alignment Tool                          | Dynamic Programming, Algorithms, Bioinformatics | ⬜      |
 
-Learn: APIs, LLMs, speech recognition, Python architecture.
+---
 
-This should be one of your first major projects.
+## 🟢 Phase 2 — First AI Systems
 
-7. 📄 AI Document Analyst
+| #  | Project                            | Main Concepts                               | Status |
+| -- | ---------------------------------- | ------------------------------------------- | ------ |
+| 06 | 🗣️ JARVIS v1 — Voice AI Assistant | APIs, LLMs, Speech Recognition, TTS         | ⬜      |
+| 07 | 📄 AI Document Analyst             | Embeddings, RAG, Chunking, LLMs             | ⬜      |
+| 08 | 🧠 Personal AI Memory              | Embeddings, Vector DB, Retrieval, Memory    | ⬜      |
+| 09 | 🔍 AI Research Assistant           | Search, RAG, Research Automation, Citations | ⬜      |
+| 10 | 💻 AI Coding Assistant             | Tool Calling, Code Execution, Agents        | ⬜      |
 
-Upload:
+---
 
-PDF
-TXT
-CSV
-documents
+## 🟡 Phase 3 — AI Agents
 
-Ask questions about them.
+| #  | Project                          | Main Concepts                               | Status |
+| -- | -------------------------------- | ------------------------------------------- | ------ |
+| 11 | 🔧 Tool-Using AI Agent           | Tools, APIs, Agent Loops                    | ⬜      |
+| 12 | 🧠 Planning Agent                | Planning, Task Decomposition, State         | ⬜      |
+| 13 | 🔄 Agent Retry & Recovery System | Reliability, Error Handling, State Machines | ⬜      |
+| 14 | 👥 Multi-Agent System            | Agent Orchestration, Communication          | ⬜      |
+| 15 | 🕵️ Autonomous Research Agent    | Agents, Search, Analysis, Report Generation | ⬜      |
 
-Learn: embeddings, RAG, chunking, retrieval, LLMs.
+---
 
-8. 🧠 Personal AI Memory
+## 🟠 Phase 4 — AI Systems Engineering
 
-Give JARVIS memory.
+| #  | Project                           | Main Concepts                               | Status |
+| -- | --------------------------------- | ------------------------------------------- | ------ |
+| 16 | 🔬 AI Workflow Debugger           | Tracing, Logs, Observability                | ⬜      |
+| 17 | 🧠 AI Evaluation Engine           | Evaluation, Hallucination, Latency, Cost    | ⬜      |
+| 18 | 🤖 AI Software Engineer Agent     | Planning, Coding, Testing, Debugging        | ⬜      |
+| 19 | 🧠 CoRetain — Long-Term AI Memory | Episodic Memory, Semantic Memory, Retrieval | ⬜      |
+| 20 | 🤖 Autonomous AI Operating System | Planning, Tools, Memory, Agents, Evaluation | ⬜      |
 
-Conversation
-      ↓
-Memory extraction
-      ↓
-Storage
-      ↓
-Retrieval
-      ↓
-LLM
+---
 
-Learn: vector databases, embeddings, retrieval, memory architecture.
+## 🟠 Phase 5 — Computer Vision
 
-9. 🔍 AI Research Assistant
+| #  | Project                                  | Main Concepts                         | Status |
+| -- | ---------------------------------------- | ------------------------------------- | ------ |
+| 21 | 👁️ Computer Vision Assistant            | OpenCV, OCR, Object Detection         | ⬜      |
+| 22 | 🎯 Real-Time Object Detection & Tracking | Detection, Tracking, Vision Pipelines | ⬜      |
+| 23 | ✋ Gesture Recognition System             | Computer Vision, Gesture Recognition  | ⬜      |
+| 24 | 📷 AI Screen Understanding System        | OCR, UI Understanding, Computer Use   | ⬜      |
+| 25 | 🥽 AI HUD                                | Computer Vision, AI, Real-Time UI     | ⬜      |
 
-Give it:
+---
 
-"Research multimodal AI agents."
+## 🔴 Phase 6 — Multimodal AI
 
-It:
+| #  | Project                             | Main Concepts                         | Status |
+| -- | ----------------------------------- | ------------------------------------- | ------ |
+| 26 | 🎙️ Multimodal JARVIS               | Voice, Text, Image, Screen, Documents | ⬜      |
+| 27 | 🎥 Video Understanding AI           | Vision, Speech, Multimodal AI         | ⬜      |
+| 28 | 🧠 Multimodal AI Research Assistant | Papers, Images, Tables, Code, Data    | ⬜      |
 
-Search → read → extract → compare → summarize → cite
+---
 
-Learn: research automation, RAG, agents, evaluation.
+## 🔴 Phase 7 — Robotics & Physical AI
+
+| #  | Project                        | Main Concepts                          | Status |
+| -- | ------------------------------ | -------------------------------------- | ------ |
+| 29 | 🤖 AI-Controlled Robot         | Sensors, Motors, Microcontrollers      | ⬜      |
+| 30 | 👁️ Vision-Based Robot         | Vision, Perception, Control            | ⬜      |
+| 31 | 🧭 Autonomous Navigation Robot | Localization, Path Planning, Control   | ⬜      |
+| 32 | 🦾 AI Robotic Arm              | Vision, Motion Planning, Robotics      | ⬜      |
+| 33 | 🖐️ AI Object-Picking Robot    | Perception, Planning, Manipulation     | ⬜      |
+| 34 | 🧠 Physical AI Agent           | Perception, Planning, Action, Learning | ⬜      |
+
+---
+
+## 🧬 Phase 8 — AI + Biology
+
+| #  | Project                                  | Main Concepts                                       | Status |
+| -- | ---------------------------------------- | --------------------------------------------------- | ------ |
+| 35 | 🧬 DNA Classification AI                 | ML, Deep Learning, Sequence Analysis                | ⬜      |
+| 36 | 🧬 Gene Expression Analysis & Prediction | Statistics, ML, Dimensionality Reduction            | ⬜      |
+| 37 | 🧬 Protein Function Predictor            | Protein AI, Classification, Representation Learning | ⬜      |
+| 38 | 🧬 Protein Property Predictor            | Regression, Biological Representations              | ⬜      |
+| 39 | 🔬 Biological Image Analysis System      | Computer Vision, Cell Analysis                      | ⬜      |
+| 40 | 🧪 Drug-Target Interaction Predictor     | ML, Drug Discovery, Molecular Data                  | ⬜      |
+
+---
+
+## 🔴 Phase 9 — Advanced Computational Biology
+
+| #  | Project                               | Main Concepts                              | Status |
+| -- | ------------------------------------- | ------------------------------------------ | ------ |
+| 41 | 💊 AI Drug Discovery Pipeline         | AI Screening, Property Prediction, Ranking | ⬜      |
+| 42 | 🧠 EEG Brain Signal Analyzer          | Signal Processing, ML, Neuroscience        | ⬜      |
+| 43 | 🧠 EEG-Based Brain-Computer Interface | EEG, ML, BCI                               | ⬜      |
+| 44 | 🦾 Neural-Controlled Robot            | EEG/EMG, AI, Robotics                      | ⬜      |
+
+---
+
+## 🏆 Phase 10 — Major Systems
+
+| #  | Project                                | Main Concepts                                 | Status |
+| -- | -------------------------------------- | --------------------------------------------- | ------ |
+| 45 | 🧠 Biological Research Agent           | AI Agents, Bioinformatics, Research           | ⬜      |
+| 46 | 🧬 Biological Knowledge Engine         | Knowledge Graphs, RAG, AI Reasoning           | ⬜      |
+| 47 | 🧠 AI Biological Digital Twin          | Simulation, Prediction, Computational Biology | ⬜      |
+| 48 | 🤖 Multimodal Autonomous AI Researcher | Agents, RAG, Vision, Code, Tools              | ⬜      |
+| 49 | 🧬 BIO-JARVIS                          | Biology, AI, Agents, Research                 | ⬜      |
+| 50 | 🏆 JARVIS — Full System                | Multimodal AI, Agents, Robotics, Biology      | ⬜      |
+
+---
+
+# 📊 Skill Progression
+
+The projects progressively cover:
+
+### 💻 Computer Science
+
+* Python
+* C/C++
+* Data Structures & Algorithms
+* Dynamic Programming
+* Databases
+* APIs
+* Software Engineering
+* Operating Systems
+* Computer Networks
+
+### 🤖 Artificial Intelligence
+
+* Machine Learning
+* Deep Learning
+* LLMs
+* RAG
+* Embeddings
+* Vector Databases
+* AI Agents
+* Tool Calling
+* Planning
+* Multi-Agent Systems
+* AI Memory
+* AI Evaluation
+* Multimodal AI
+
+### 👁️ Computer Vision
+
+* OpenCV
+* OCR
+* Object Detection
+* Object Tracking
+* Gesture Recognition
+* Screen Understanding
+* Vision-Language Systems
+
+### 🦾 Robotics
+
+* Sensors
+* Motors
+* Microcontrollers
+* Computer Vision
+* Path Planning
+* Localization
+* Motion Planning
+* Robot Control
+* Physical AI
 
-10. 💻 AI Coding Assistant
+### 🧬 Biology
 
-Build a small coding agent that can:
+* DNA
+* RNA
+* Proteins
+* Genetics
+* Genomics
+* Bioinformatics
+* Gene Expression
+* Computational Biology
+* Drug Discovery
+* Neuroscience
+* EEG
+* Brain-Computer Interfaces
 
-inspect files
-explain code
-modify code
-run tests
-debug errors
+---
 
-Learn: tool calling, code execution, agents, software engineering.
+# 🧪 Project Documentation
 
-🟡 Phase 3 — Agents
-11. 🔧 Tool-Using AI Agent
+Each completed project should contain its own README.
 
-Build an agent that can use:
+A typical project structure:
 
-calculator
-web search
-Python
-filesystem
-APIs
+```text
+01-dna-sequence-analyzer/
+│
+├── README.md
+├── src/
+├── tests/
+├── data/
+├── results/
+├── demo/
+└── requirements.txt
+```
 
-Core concept:
+Each project README should explain:
 
-LLM → Tool selection → Tool execution → Observation → Next decision
+1. **Problem**
+2. **Goal**
+3. **How it works**
+4. **Concepts learned**
+5. **Technologies used**
+6. **Implementation**
+7. **Testing**
+8. **Results**
+9. **Demo**
+10. **Limitations**
+11. **Future improvements**
 
-12. 🧠 Planning Agent
+---
 
-Give it:
+# 🎥 Projects & Content
 
-"Build a weather application."
+Some projects will be documented through my content creation journey.
 
-It breaks the goal into tasks.
+When available, project pages will include:
 
-Learn: planning, task decomposition, state management.
+* 🎬 Video
+* 💻 Source Code
+* 📸 Demo
+* 📊 Results
+* 📝 Technical Documentation
 
-13. 🔄 Agent Retry & Recovery System
+The goal is to make every project **verifiable and reproducible where practical**.
 
-Make an agent recover when:
+---
 
-API fails
-tool fails
-code fails
-wrong result occurs
+# 📈 Progress
 
-Learn: reliability engineering, error handling, state machines.
+**Projects:** `0 / 50`
 
-14. 👥 Multi-Agent System
+```text
+Computer Science       ░░░░░░░░░░  0%
+Artificial Intelligence ░░░░░░░░░░  0%
+Biology                 ░░░░░░░░░░  0%
+Robotics                ░░░░░░░░░░  0%
+```
 
-Create specialized agents:
+> This section will be updated as projects are completed.
 
-Research Agent
-      ↓
-Coding Agent
-      ↓
-Testing Agent
-      ↓
-Reviewer Agent
+---
 
-Learn: agent orchestration and distributed reasoning.
+# 🧭 Build Philosophy
 
-15. 🕵️ Autonomous Research Agent
+> **Don't just learn technology. Build with it.**
 
-Give it a research question.
+The projects start small and progressively become more complex.
 
-It independently:
+The objective isn't to make 50 impressive-looking projects.
 
-searches → reads → analyzes → compares → generates hypothesis → produces report
+The objective is to build **real understanding through implementation**.
 
-This is one of the most important projects for your AI research direction.
+Each project should answer:
 
-🟠 Phase 4 — AI Systems Engineering
-16. 🔬 AI Workflow Debugger
+> **What did I learn, and what can I build now that I couldn't build before?**
 
-This connects directly to your Vector Flow System.
+---
 
-Build:
+# ⚠️ Disclaimer
 
-Workflow
- ↓
-Tracing
- ↓
-Logs
- ↓
-Agent decisions
- ↓
-Tool calls
- ↓
-Errors
- ↓
-Performance
+These projects are primarily **educational and experimental**.
 
-Learn: observability, distributed systems, AI evaluation.
+Projects involving biology, medicine, drug discovery, neuroscience, or other scientific applications are **not medical or clinical systems** and should not be treated as medical advice or validated scientific/clinical tools.
 
-17. 🧠 AI Evaluation Engine
+Datasets, models, libraries, APIs, and other third-party materials remain subject to their respective licenses and terms.
 
-Build a system that automatically evaluates AI outputs.
+---
 
-Measure:
+# © Copyright
 
-correctness
-hallucination
-latency
-cost
-tool success
-consistency
+Copyright © 2026 Navneet. All rights reserved.
 
-This is extremely important for becoming an AI systems/research engineer.
+Unless otherwise stated, the original source code, documentation, project implementations, and other original materials in this repository may not be copied, modified, redistributed, republished, or used commercially without prior written permission.
 
-18. 🤖 AI Software Engineer Agent
+This repository is publicly available for viewing and educational reference.
 
-Give it:
+Third-party libraries, datasets, models, images, and other external materials remain subject to their respective licenses.
 
-"Build this application."
+---
 
-It:
+# ⭐ The Long-Term Goal
 
-requirements → architecture → code → tests → debugging → documentation
+**50 projects → deeper skills → larger systems → research**
 
-This becomes a much more advanced version of #10.
+This repository is a record of that progression.
 
-19. 🧠 Long-Term AI Memory / CoRetain
-
-Build a serious memory architecture containing:
-
-episodic memory
-semantic memory
-user information
-goals
-experiences
-retrieval
-memory consolidation
-
-This can eventually become part of your JARVIS architecture.
-
-20. 🤖 Autonomous AI Operating System
-
-Combine:
-
-Goal Parser + Planner + Tools + Agents + Memory + Evaluation + Recovery
-
-This is your first major AI system.
-
-🟠 Phase 5 — Computer Vision
-21. 👁️ Computer Vision Assistant
-
-Camera → AI → explanation.
-
-Capabilities:
-
-object detection
-OCR
-scene understanding
-
-Learn: OpenCV, PyTorch, computer vision.
-
-22. 🎯 Real-Time Object Detection + Tracking
-
-Detect and track objects through a camera.
-
-Learn: YOLO-style detection, tracking, computer vision pipelines.
-
-23. ✋ Gesture Recognition System
-
-Recognize:
-
-hand gestures
-body gestures
-commands
-
-Use them to control software.
-
-24. 📷 AI Screen Understanding System
-
-Give AI access to your computer screen.
-
-It can:
-
-understand UI
-identify buttons
-read text
-explain what's happening
-
-This becomes the foundation for computer-use agents.
-
-25. 🥽 AI HUD
-
-Combine:
-
-Computer Vision + AI + UI + real-time data
-
-Example:
-
-Object
-Distance
-Status
-AI information
-Navigation
-Commands
-
-This is your first genuine Iron-Man-inspired interface.
-
-🔴 Phase 6 — Multimodal AI
-26. 🎙️ Multimodal JARVIS
-
-Give JARVIS:
-
-Voice + Text + Image + Screen + Documents
-
-Now it can understand different modalities.
-
-27. 🎥 Video Understanding AI
-
-Give it a lecture/video.
-
-It:
-
-watches → listens → understands → extracts concepts → answers questions
-
-28. 🧠 Multimodal AI Research Assistant
-
-Combine:
-
-papers + images + tables + code + datasets + audio/video
-
-This is a strong research-oriented project.
-
-🔴 Phase 7 — Robotics
-29. 🤖 AI-Controlled Robot
-
-Build a simple robot controlled by software.
-
-Learn:
-
-sensors
-microcontrollers
-motors
-communication
-control
-30. 👁️ Vision-Based Robot
-
-Robot uses a camera.
-
-Camera
- ↓
-Vision AI
- ↓
-Object
- ↓
-Decision
- ↓
-Movement
-31. 🧭 Autonomous Navigation Robot
-
-Robot must:
-
-localize → plan → navigate → avoid obstacles
-
-Learn:
-
-robotics
-path planning
-localization
-control
-32. 🦾 AI Robotic Arm
-
-Give command:
-
-"Pick up the red object."
-
-System:
-
-Speech → Vision → Position → Motion Planning → Robot
-
-33. 🖐️ AI Object-Picking Robot
-
-Upgrade #32 to detect different objects and autonomously choose what to pick.
-
-This gives you deeper robot perception + planning + manipulation.
-
-34. 🧠 Physical AI Agent
-
-Build:
-
-PERCEPTION
-     ↓
-WORLD STATE
-     ↓
-REASONING
-     ↓
-PLANNING
-     ↓
-ACTION
-     ↓
-OBSERVATION
-     ↓
-LEARNING
-
-This is one of the most important projects on your entire list.
-
-🧬 Phase 8 — AI + Biology
-35. 🧬 DNA Classification AI
-
-Train ML/DL models to classify biological sequences.
-
-Learn: biological ML + deep learning.
-
-36. 🧬 Gene Expression Analysis + Prediction
-
-Use gene-expression datasets.
-
-Learn:
-
-high-dimensional data
-statistics
-dimensionality reduction
-ML
-37. 🧬 Protein Function Predictor
-
-Input:
-
-Protein sequence
-
-Output:
-
-predicted biological function
-
-This introduces you to protein AI.
-
-38. 🧬 Protein Property Predictor
-
-Predict properties such as stability or other experimentally measured characteristics from sequence/structure-derived features.
-
-Learn: biological representation learning, regression/classification.
-
-39. 🧬 Biological Image Analysis System
-
-Input:
-
-Microscopy image
-
-Output:
-
-cells detected
-classification
-measurements
-
-Learn: computer vision + biology.
-
-40. 🧪 Drug-Target Interaction Predictor
-
-Input:
-
-drug + biological target
-
-Output:
-
-predicted interaction/affinity score
-
-This takes you into AI drug discovery.
-
-🔴 Phase 9 — Advanced Computational Biology
-41. 💊 AI Drug Discovery Pipeline
-
-Combine:
-
-Disease
- ↓
-Target
- ↓
-Molecule Database
- ↓
-AI Screening
- ↓
-Property Prediction
- ↓
-Toxicity Prediction
- ↓
-Ranking
-
-This is a serious portfolio project.
-
-42. 🧠 EEG Brain Signal Analyzer
-
-Input:
-
-EEG data
-
-Build:
-
-signal processing
-visualization
-feature extraction
-classification
-
-This combines AI + neuroscience.
-
-43. 🧠 EEG-Based Brain-Computer Interface
-
-Use EEG signals to control a simple software system/game.
-
-Then potentially:
-
-EEG → AI → robot command
-
-This is where CS + AI + Biology + hardware start merging.
-
-44. 🦾 Neural-Controlled Robot
-
-Combine:
-
-EEG/EMG → AI → robotic control
-
-Now biological signals directly control a machine.
-
-🔴 Phase 10 — Your Major Systems
-45. 🧠 Biological Research Agent
-
-Give it:
-
-"Investigate this biological question."
-
-It searches:
-
-papers
-biological databases
-sequences
-datasets
-
-Then analyzes them and produces a research report.
-
-46. 🧬 Biological Knowledge Engine
-
-Build a knowledge system connecting:
-
-Genes
- ↓
-Proteins
- ↓
-Pathways
- ↓
-Diseases
- ↓
-Drugs
- ↓
-Research Papers
-
-This becomes a biological knowledge graph + RAG + AI reasoning system.
-
-47. 🧠 AI Biological Digital Twin
-
-Create a computational model of a biological system.
-
-Start small:
-
-cell/pathway/metabolic system
-
-Then:
-
-simulation → prediction → intervention experiments
-
-This is a research-level direction.
-
-48. 🤖 Multimodal Autonomous AI Researcher
-
-Combine:
-
-LLM + Vision + RAG + Agents + Code + Tools + Memory + Evaluation
-
-It can independently conduct computational investigations.
-
-49. 🧬 BIO-JARVIS
-
-Your ultimate CS + AI + Biology assistant.
-
-                    BIO-JARVIS
-                        │
-        ┌───────────────┼────────────────┐
-        ↓               ↓                ↓
-     GENOMICS        PROTEINS         MEDICINE
-        │               │                │
-        └───────────────┼────────────────┘
-                        ↓
-                BIOLOGICAL RAG
-                        ↓
-                  AI REASONING
-                        ↓
-                 AGENT SYSTEM
-                        ↓
-                 DATA ANALYSIS
-                        ↓
-                  SIMULATION
-                        ↓
-                 RESEARCH REPORT
-
-It becomes your long-term flagship project.
-
-🏆 50. JARVIS — The Full System
-
-Finally, bring everything you've learned into your original vision.
-
-JARVIS
-                         JARVIS
-                           │
-       ┌───────────────────┼──────────────────┐
-       ↓                   ↓                  ↓
-     VOICE               VISION            TEXT
-       │                   │                  │
-       └───────────────────┼──────────────────┘
-                           ↓
-                    MULTIMODAL MODEL
-                           ↓
-                    MEMORY / CoRetain
-                           ↓
-                    GOAL UNDERSTANDING
-                           ↓
-                      PLANNER
-                           ↓
-               ┌───────────┼───────────┐
-               ↓           ↓           ↓
-            COMPUTER     RESEARCH     ROBOT
-             AGENT        AGENT       AGENT
-               ↓           ↓           ↓
-               └───────────┼───────────┘
-                           ↓
-                      ACTION
-                           ↓
-                       OBSERVE
-                           ↓
-                      EVALUATE
-                           ↓
-                     SELF-IMPROVE
-
-Then connect the biological side:
-
-                         JARVIS
-                            │
-        ┌───────────────────┼──────────────────┐
-        ↓                   ↓                  ↓
-     DIGITAL             PHYSICAL           BIOLOGY
-     WORLD                WORLD              WORLD
-        │                   │                  │
-     Computer             Robot           Biological
-     Agents              Systems            Data
-        │                   │                  │
-        └───────────────────┼──────────────────┘
-                            ↓
-                    GENERAL AI SYSTEM
-🎯 What these 50 actually cover
-
-The important part is that you're not really learning 50 unrelated things.
-
-You're progressively covering these domains:
-
-Domain	Covered
-Python	✅
-C++	✅
-DSA	✅
-Algorithms	✅
-Software Engineering	✅
-APIs	✅
-LLMs	✅
-RAG	✅
-Vector Databases	✅
-AI Agents	✅
-Planning	✅
-Tool Calling	✅
-Multi-Agent Systems	✅
-AI Memory	✅
-AI Evaluation	✅
-AI Observability	✅
-Computer Vision	✅
-Multimodal AI	✅
-Speech AI	✅
-Computer Use	✅
-Robotics	✅
-Control	✅
-Autonomous Systems	✅
-Physical AI	✅
-Bioinformatics	✅
-Genomics	✅
-Protein AI	✅
-Drug Discovery	✅
-Neuroscience	✅
-BCI	✅
-Computational Biology	✅
-Biological Simulation	✅
-AI Research	✅
+**Learn → Build → Test → Document → Improve → Repeat**
