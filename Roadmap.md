@@ -32,7 +32,7 @@ The projects are intentionally arranged in a progression rather than as 50 unrel
 
 | #  | Project                                                 | Main Concepts                                   | Status |
 | -- | ------------------------------------------------------- | ----------------------------------------------- | ------ |
-| 01 | 🧬 [DNA Sequence Analyzer](./01-dna-sequence-analyzer/) | Python, Strings, Algorithms, Biology            | ⬜      |
+| 01 | 🧬 [DNA Sequence Analyzer](1.DNA-Seq_Ana.py)            | Python, Strings, Algorithms, Biology            | ⬜      |
 | 02 | 🔄 DNA → RNA → Protein Simulator                        | Algorithms, Data Representation, Biology        | ⬜      |
 | 03 | 📊 Biological Data Cleaner                              | Pandas, CSV, JSON, Validation                   | ⬜      |
 | 04 | 🔎 DNA Sequence Search Engine                           | Searching, String Algorithms, Indexing          | ⬜      |
