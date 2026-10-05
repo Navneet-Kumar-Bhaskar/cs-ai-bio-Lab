@@ -48,7 +48,7 @@ When a project has an associated video, it will be linked here.
 
 | Project               | Video       | Code                                    |
 | --------------------- | ----------- | --------------------------------------- |
-| DNA Sequence Analyzer | Coming Soon | [Project](./001-dna-sequence-analyzer/) |
+| DNA Sequence Analyzer | Coming Soon | [Project](1.DNA-Seq_Ana.py) |
 | ...                   | ...         | ...                                     |
 
 ---
